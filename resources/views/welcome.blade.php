@@ -13,8 +13,10 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-image: url("../img/city.jpg");
+                  -webkit-background-size: cover !important;
+                background-color: #000;
+                color: #fff;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -65,7 +67,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+     {{--    <div class="flex-center position-ref full-height"> --}}
 {{--             @if (Route::has('login'))
                 <div class="top-right links">
                     @if (Auth::check())
@@ -78,8 +80,17 @@
             @endif --}}
 
             <div class="content">
-                <div class="title m-b-md">
-                    Tom Tishbey
+            <div></div>
+                <div class="title m-b-md" style="padding-top: 100px">
+                    Wheel-B
+                </div>
+                <div>
+                <p style="font-size: 150%; font-weight: 900">Website Under Construction</p>
+                    <p style="font-weight: 600">
+                    Tom Tishbey<br/>
+
+111 W Illinois Ave,<br/>
+Chicago, IL 60</p>
                 </div>
 
 {{--                 <div class="links">
@@ -90,7 +101,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
  --}}          
-          </div>
+  {{--         </div> --}}
         </div>
     </body>
 </html>
