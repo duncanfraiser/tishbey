@@ -90,8 +90,7 @@
                     Tom Tishbey<br/>
 
 111 W Illinois Ave,<br/>
-Chicago, IL 60654<br/>
-Duncan is Cool</p>
+Chicago, IL 60654</p>
                 </div>
 
 {{--                 <div class="links">
